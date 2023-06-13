@@ -4,7 +4,15 @@ import { ContactList } from './ContactList/ContactList';
 
 export const App = () => {
   return (
-    <div>
+    <div
+      style={{
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center',
+        color: '#010101',
+      }}
+    >
       <h1>Phonebook</h1>
       <Form />
       <h2>Contacts</h2>
