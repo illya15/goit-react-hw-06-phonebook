@@ -61,7 +61,7 @@ export const Form = () => {
           value={name}
         />
       </label>
-      <br />
+      <br/>
       <label>
         Number <br />
         <input
@@ -74,7 +74,7 @@ export const Form = () => {
           value={number}
         />
       </label>
-      <br />
+      <br/>
       <button type="submit">Add contact</button>
     </form>
   );
